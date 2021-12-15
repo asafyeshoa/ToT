@@ -1,0 +1,39 @@
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 0.5rem;
+}
+
+tr:nth-child(even) {
+  background-color: #443780;
+  color: #b7bad2;
+}
+tr:nth-child(odd) {
+  background-color: #ee4d53;
+  color: #000000;
+}
+
+.table-container {
+  margin-top: 50%;
+}
+
+.capital {
+  text-transform: capitalize;
+}
+
+button {
+  padding: 5rem;
+  background: #443780;
+  font-size: larger;
+}
+
+button:hover {
+  background-color: #ee4d53;
+}

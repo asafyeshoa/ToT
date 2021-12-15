@@ -1,0 +1,3 @@
+./server/node_modules
+./clientdd/node_modules
+npm-debug.log
